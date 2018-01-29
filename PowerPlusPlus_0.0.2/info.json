@@ -1,0 +1,11 @@
+{
+  "name": "PowerPlusPlus",
+  "version": "0.0.2",
+  "factorio_version": "0.16",
+  "title": "Power++",
+  "author": "YMan",
+  "contact": "christheboss894@gmail.com",
+  "homepage": "Nil",
+  "description": "Adds new power structures.",
+  "dependencies": ["base >= 0.16.0"]
+}
