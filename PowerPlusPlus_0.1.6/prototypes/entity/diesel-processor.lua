@@ -20,7 +20,7 @@ data:extend(
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__PowerPlusPlus__/graphics/entity/diesel-processor/diesel-processor.png",
+        filename = "__PowerPlusPlus__/graphics/entity/diesel_processor/diesel_processor.png",
         width = 122,
         height = 134,
         frame_count = 1,
