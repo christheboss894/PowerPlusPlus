@@ -114,7 +114,7 @@ data:extend(
     dying_explosion = "medium-explosion",
     effectivity = 1,
     fluid_usage_per_tick = 0.25,
-    maximum_temperature = 1020, --1020,
+    maximum_temperature = 960, --945,
     resistances =
     {
       {
