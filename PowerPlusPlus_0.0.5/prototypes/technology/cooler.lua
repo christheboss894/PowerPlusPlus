@@ -24,7 +24,7 @@ data:extend(
         {"science-pack-1", 1},
         {"science-pack-2", 1}
       },
-      time = 30
+      time = 15
     },
     upgrade = true,
     order = "[boiler]-1",
