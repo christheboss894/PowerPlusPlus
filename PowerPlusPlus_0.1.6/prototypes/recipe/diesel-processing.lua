@@ -32,8 +32,8 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {type="fluid", name="diesel", amount=15},
-      {type="fluid", name="petroleum-gas", amount=7.5},
+      {type="fluid", name="diesel", amount=150},
+      {type="fluid", name="petroleum-gas", amount=75},
     },
     results=
     {
