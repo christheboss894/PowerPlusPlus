@@ -114,7 +114,7 @@ data:extend(
     dying_explosion = "medium-explosion",
     effectivity = 1,
     fluid_usage_per_tick = 0.25,
-    maximum_temperature = 960, --945,
+    maximum_temperature = 1001, --1001,
     resistances =
     {
       {
@@ -142,7 +142,7 @@ data:extend(
       },
       production_type = "input-output",
       filter = "combustion-mixture",
-      minimum_temperature = 980, --965.0
+      minimum_temperature = 985, --965.0
     },
     energy_source =
     {
