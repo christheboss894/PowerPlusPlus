@@ -44,7 +44,7 @@ data:extend(
         {"iron-gear-wheel", 25},
 		{"stone-furnace", 2},
       },
-      result = "diesel-generator",
+      result = "combustion-mixture-generator",
     },
     expensive =
     {
