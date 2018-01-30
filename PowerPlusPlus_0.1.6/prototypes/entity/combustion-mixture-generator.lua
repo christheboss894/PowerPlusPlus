@@ -104,11 +104,11 @@ data:extend(
 {
   {
     type = "generator",
-    name = "diesel-generator",
+    name = "combustion-mixture-generator",
     icon = "__PowerPlusPlus__/graphics/icons/diesel-generator.png",
     icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
-    minable = {mining_time = 1, result = "diesel-generator"},
+    minable = {mining_time = 1, result = "combustion-mixture-generator"},
     max_health = 500,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
