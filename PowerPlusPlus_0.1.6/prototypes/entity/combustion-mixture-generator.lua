@@ -142,7 +142,7 @@ data:extend(
       },
       production_type = "input-output",
       filter = "combustion-mixture",
-      minimum_temperature = 1000, --985.0
+      minimum_temperature = 980, --965.0
     },
     energy_source =
     {
