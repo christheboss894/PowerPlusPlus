@@ -12,7 +12,7 @@ data:extend(
     icon_size = 32,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-	gas_temperature = 520,
+	--gas_temperature = 520,
     order = "a[fluid]-c[heavy-oil]"
 }
 }
