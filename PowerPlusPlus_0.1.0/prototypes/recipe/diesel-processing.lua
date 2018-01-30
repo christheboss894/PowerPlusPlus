@@ -9,12 +9,12 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {type="fluid", name="heavy-oil", amount=7.5},
-      {type="fluid", name="light-oil", amount=15},
+      {type="fluid", name="heavy-oil", amount=6},
+      {type="fluid", name="light-oil", amount=12},
     },
     results=
     {
-      {type="fluid", name="diesel", amount=3.75, temperature=525},
+      {type="fluid", name="diesel", amount=3, temperature=525},
     },
     subgroup = "fluid-recipes",
     crafting_machine_tint =
