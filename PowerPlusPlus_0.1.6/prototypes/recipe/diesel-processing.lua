@@ -45,7 +45,7 @@ data:extend(
       primary = {r = 0.000, g = 0.260, b = 0.010, a = 0.000}, -- #00420200
       secondary = {r = 0.071, g = 0.640, b = 0.000, a = 0.000}, -- #12a30000
       tertiary = {r = 0.026, g = 0.520, b = 0.000, a = 0.000}, -- #06840000
-    }
+    },
   {
     type = "recipe",
     name = "diesel-processor",
