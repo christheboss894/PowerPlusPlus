@@ -29,7 +29,7 @@ data:extend(
       },
       result = "diesel-generator",
     }
-  }
+  },
   {
     type = "recipe",
     name = "combustion-mixture-generator",
