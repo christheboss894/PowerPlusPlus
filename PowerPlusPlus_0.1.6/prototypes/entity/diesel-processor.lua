@@ -20,19 +20,19 @@ data:extend(
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__base__/graphics/entity/chemical-plant/chemical-plant.png",
+        filename = "__PowerPlusPlus__/graphics/entity/diesel_processor/diesel_processor.png",
         width = 122,
         height = 134,
         frame_count = 1,
         shift = util.by_pixel(-5, -4.5),
-        hr_version = {
-          filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant.png",
-          width = 244,
-          height = 268,
-          frame_count = 1,
-          shift = util.by_pixel(-5, -4.5),
-          scale = 0.5
-          }
+        --hr_version = {
+        --  filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant.png",
+        --  width = 244,
+        --  height = 268,
+        --  frame_count = 1,
+        --  shift = util.by_pixel(-5, -4.5),
+        --  scale = 0.5
+        --  }
       },
       {
         filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
