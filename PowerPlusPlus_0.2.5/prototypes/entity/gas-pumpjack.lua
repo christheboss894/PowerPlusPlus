@@ -55,13 +55,39 @@ data:extend(
       sheets =
       {
         {
-          filename = "__PowqerPlusPlus__/graphics/entity/gas_pumpjack/placeholder.png",
+          filename = "__base__/graphics/entity/pumpjack/pumpjack-base.png",
           priority = "extra-high",
-          width = 256,
-          height = 256,
-          --shift = util.by_pixel(0, 0),
-
-		}
+          width = 131,
+          height = 137,
+          shift = util.by_pixel(-2.5, -4.5),
+          hr_version = 
+          {
+            filename = "__base__/graphics/entity/pumpjack/hr-pumpjack-base.png",
+            priority = "extra-high",
+            width = 261,
+            height = 273,
+            shift = util.by_pixel(-2.25, -4.75),
+            scale = 0.5
+          }
+        },
+        {
+          filename = "__base__/graphics/entity/pumpjack/pumpjack-base-shadow.png",
+          priority = "extra-high",
+          width = 110,
+          height = 111,
+          draw_as_shadow = true,
+          shift = util.by_pixel(6, 0.5),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/pumpjack/hr-pumpjack-base-shadow.png",
+            width = 220,
+            height = 220,
+            scale = 0.5,
+            draw_as_shadow = true,
+            shift = util.by_pixel(6, 0.5)
+          }
+        }
+      }
     },
     animations =
     {
@@ -116,8 +142,8 @@ data:extend(
             }
           }
         }
-      } 
-    }, 
+      }
+    },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound =
     {
@@ -130,6 +156,6 @@ data:extend(
     circuit_connector_sprites = circuit_connector_definitions["pumpjack"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance
   }
-}
+
 }
 )
