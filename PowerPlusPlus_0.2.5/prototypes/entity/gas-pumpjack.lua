@@ -21,19 +21,17 @@ data:extend(
       emissions = 0.15 / 1.5,
       usage_priority = "secondary-input"
     },
-	input_fluid_box = (not data.is_demo) and
+	input_fluid_box =
     {
       production_type = "input-output",
       pipe_picture = assembler2pipepictures(),
       pipe_covers = pipecoverspictures(),
       base_area = 1,
-      height = 2,
-      base_level = -1,
       pipe_connections =
       {
-        { position = {0, 2} },
+        { position = {-2, 0} }
       }
-    } or nil,
+    },
     output_fluid_box =
     {
       base_area = 1,
@@ -41,9 +39,7 @@ data:extend(
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        {
-          positions = { {0, -2}, {2, 0}, {0, 2}, {0, 1} }
-        }
+          { position = {2, 0} }
       },
     },
     energy_usage = "90kW",

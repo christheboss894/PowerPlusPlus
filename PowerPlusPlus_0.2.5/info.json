@@ -7,5 +7,5 @@
   "contact": "Nil",
   "homepage": "Nil",
   "description": "Adds new power structures.",
-  "dependencies": ["base >= 0.16.0"]
+  "dependencies": ["base >= 0.16.0", "CorePlusPlus", "FluidsPlusPlus"]
 }
