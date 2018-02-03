@@ -7,7 +7,7 @@ data:extend(
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "gas-pumpjack"},
-    resource_categories = {"basic-fluid"},
+    resource_categories = {"basic-gas"},
     max_health = 200,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
