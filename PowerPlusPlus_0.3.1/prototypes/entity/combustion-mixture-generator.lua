@@ -113,7 +113,8 @@ data:extend(
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
     effectivity = 1,
-    fluid_usage_per_tick = 0.25,
+    fluid_usage_per_tick = 0.1,
+	burns_fluid = true,
     maximum_temperature = 15,
     resistances =
     {
