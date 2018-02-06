@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "technology",
-    name = "gas-procesing",
+    name = "gas-processing",
     prerequisites =
     {
       "oil-processing"
