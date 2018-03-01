@@ -1,0 +1,11 @@
+{
+  "name": "PowerPlusPlus",
+  "version": "0.3.3",
+  "factorio_version": "0.16",
+  "title": "Power++",
+  "author": "YMan (aka. Ding Dong) + JBC363",
+  "contact": "Nil",
+  "homepage": "Nil",
+  "description": "Adds new power structures.",
+  "dependencies": ["base >= 0.16.0", "CorePlusPlus >= 0.0.2", "FluidsPlusPlus >= 0.0.3"]
+}
